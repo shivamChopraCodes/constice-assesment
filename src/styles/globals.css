@@ -116,3 +116,13 @@
     background-size: 0 2px, 100% 2px;
   }
 }
+
+.hero-text {
+  background: var(
+    --Gradient-01,
+    linear-gradient(124deg, #0c1523 31.78%, #6b6e86 63.45%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
